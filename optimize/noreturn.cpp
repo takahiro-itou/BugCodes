@@ -12,6 +12,10 @@ int bug(int x) {
     std::cerr   <<  "count = "  <<  ++ count << std::endl;
 }
 
+void foo() {
+    std::cerr   <<  "Call foo"  <<  std::endl;
+}
+
 int infinite_loop_when_O2(int x) {
     int ret;
     ret = bug(x);
