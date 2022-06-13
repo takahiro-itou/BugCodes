@@ -12,7 +12,7 @@ int bug(int x) {
     std::cerr   <<  "count = "  <<  ++ count << std::endl;
 }
 
-void foo() {
+int foo() {
     std::cerr   <<  "Call foo"  <<  std::endl;
 }
 
